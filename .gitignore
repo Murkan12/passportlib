@@ -1,0 +1,22 @@
+# Precompiled Headers
+*.gch
+*.pch
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic Libs
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# Debug Information Files
+*.dwo
