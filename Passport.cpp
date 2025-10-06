@@ -143,27 +143,13 @@ namespace Passportlib
 		return surname;
 	}
 
-	/*double produce_normal_dist_output(double mean, double stddev)
-	{
-		std::normal_distribution d{mean, stddev};
-		return d(gen);
-	}*/
-
 	int Passportlib::Passport::produce_age()
 	{
-		//double mean = 35.0;
-		//double stddev = 7.5;
-
-		//double output = produce_normal_dist_output(mean, stddev);
 		return std::lround(age_dist(gen));
 	}
 
 	double Passportlib::Passport::produce_height()
 	{
-		/*double mean = 1.71;
-		double stddev = 0.07;
-
-		double output = produce_normal_dist_output(mean, stddev);*/
 		return std::ceil(height_dist(gen) * 100.0) / 100.0;
 	}
 

@@ -52,7 +52,6 @@ namespace Passportlib
 			std::string produce_name(Gender g);
 			std::string produce_surname();
 
-			//double produce_normal_dist_output(double mean, double stddev);
 			int produce_age();
 			double produce_height();
 			double produce_weight();
